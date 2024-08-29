@@ -1,0 +1,42 @@
+    1  sudo apt-get update -y
+    2  git -vetsion
+    3  git --version
+    4  git clone https://github.com/sandeep2790/assignments.git
+    5  ls
+    6  cd assignments/
+    7  ls
+    8  vim abc.txt
+    9  git add abc.txt 
+   10  git status
+   11  git commit -m "first commit"
+   12  git branch
+   13  git push branch master
+   14  ssh-keygen -t rsa
+   15  ls
+   16  cd .ssh
+   17  ls -a
+   18  ls
+   19  cd .ssh
+   20  ls -la
+   21  cd ..
+   22  ls -la
+   23  cd .ssh
+   24  ls
+   25  ssh-keygen -t rsa
+   26  ls
+   27  cd id_rsa.pub
+   28  cat id_rsa.pub
+   29  git clone git@github.com:sandeep2790/assignments.git
+   30  ls
+   31  cd assignments/
+   32  ls
+   33  git branch
+   34  git checkout -b demo
+   35  vim gittestfile.txt
+   36  ls
+   37  git add gittestfile.txt 
+   38  ls
+   39  git commit -m "test file1"
+   40  git push origin demo
+   41  ls
+   42  history > sshpush.txt
